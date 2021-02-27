@@ -9,7 +9,7 @@
            fetch="https://github.com/ArianK16a"
            revision="lineage-18.1" />
 
-	<project path="frameworks/base" name="frameworks_base" remote="mod" />
+	<project path="frameworks/base" name="android_frameworks_base" remote="mod" />
 	<project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="mod" />
  	<project path="vendor/lineage" name="android_vendor_lineage" remote="mod" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mod" />
