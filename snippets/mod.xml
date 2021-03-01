@@ -2,11 +2,7 @@
 <manifest>
 
   <remote  name="mod"
-           fetch="https://github.com/Rush-er"
-           revision="lineage-18.1" />
-
-  <remote  name="device"
-           fetch="https://github.com/ArianK16a"
+           fetch="https://github.com/Rush-er-Device"
            revision="lineage-18.1" />
 
 	<project path="frameworks/base" name="android_frameworks_base" remote="mod" />
@@ -14,8 +10,10 @@
  	<project path="vendor/lineage" name="android_vendor_lineage" remote="mod" />
 	<project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="mod" />
 
-	<project path="device/xiaomi/davinci" name="android_device_xiaomi_davinci" remote="device" />
-	<project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="device" />
-	<project path="vendor/xiaomi/davinci" name="proprietary_vendor_xiaomi_davinci" remote="device" />
+	<project path="device/xiaomi/davinci" name="android_device_xiaomi_davinci" remote="mod" />
+	<project path="kernel/xiaomi/sm6150" name="android_kernel_xiaomi_sm6150" remote="mod" />
+	<project path="vendor/xiaomi/davinci" name="proprietary_vendor_xiaomi_davinci" remote="mod" />
+	
+	<project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="mod" />
 
 </manifest>
